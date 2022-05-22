@@ -1,0 +1,69 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body> 
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/reglink">Registration</a></li>
+    <li><a href="/loglink">Login</a></li>
+    <li><a href="/careerlink">Careers</a></li>
+    <li><a href="/contactlink">ContactUs</a></li>
+    <li><a href="/aboutlink">About</a></li>
+  </ul>
+</body>   
+
+<div>
+    <form action="/savelink3" method="post">
+        <h1>Contact us</h1><br><br>
+        <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+        Your Name:
+        <input type="text" name="name" required><br><br>
+        Your Email id:
+        <input type="text" name="email" required><br><br>
+        subject:
+        <input type="text" name="subject" required><br><br>
+        Your message:
+        <input type="text" name="message" required><br><br><br><br><br><br>
+
+        <input type="submit" name="submit"><br><br><br><br><br><br>
+
+        <ul>
+            <p>San Francisco, CA 94126, USA
+
+                + 01 234 567 89
+                
+                contact@mdbootstrap.com</p>
+        </ul>
+
+
+    </form>
+</html>

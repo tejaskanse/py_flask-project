@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>File Upload</title>    
+
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body> 
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/reglink">Registration</a></li>
+    <li><a href="/loglink">Login</a></li>
+    <li><a href="/careerlink">Careers</a></li>
+    <li><a href="/contactlink">ContactUs</a></li>
+    <li><a href="/aboutlink">About</a></li>
+  </ul>
+   
+<h1><center>Join Our Team!</center></h1>
+<p>CitiusTech is a major provider of technology solutions and services to leading healthcare organizations worldwide. We are recognized as one of the most innovative and fastest growing technology companies. In addition to having very strong practices in Java, and QA/ automation, our continued focus on emerging technologies like big data, mobile health, Internet of Things (IoT) and predictive analytics has attracted the best talent from the technology industry. Sounds interesting? Take a look at the open positions mentioned below and join our team of highly talented technology professionals.</p><br><br><br><br>
+
+    <form action = "/savelink4" method = "POST" enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <br><br>
+         <input type = "submit"/>
+         <input type = "reset"/>
+    </form>  
+</body>
+</html>

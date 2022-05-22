@@ -1,0 +1,54 @@
+<html>
+<h1><center>Update Employee Info</center></h1>
+<style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #04AA6D;
+        }
+</style>
+
+<body>
+    <form action="/updatelink/{{data[0]}} " method="post">
+            Enter Name:
+            <input type="text" name="name" value={{data[1]}} required> <br><br>
+            Enter Email:
+            <input type="text" name="email" value={{data[2]}} required> <br><br>
+            Enter Mob.No:
+            <input type="text" name="mob" value={{data[3]}} required> <br><br>
+            Enter Address:
+            <input type="text" name="address" value={{data[4]}} required> <br><br>
+            Enter Age:
+            <input type="text" name="age" value={{data[5]}} required> <br><br>
+            Enter Gender:
+            <input type="text" name="gender" value={{data[6]}} required> <br><br>
+            Enter Password:
+            <input type="text" name="password" value={{data[7]}} required> <br><br><br>
+        
+            <button type="submit">update</button> 
+    </form>
+
+</body>
+</html>

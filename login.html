@@ -1,0 +1,61 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+    <body>
+        
+        <ul>
+          <li><a href="/">Home</a></li>
+      <li><a href="/reglink">Registration</a></li>
+      <li><a href="/loglink">Login</a></li>
+      <li><a href="/careerlink">Careers</a></li>
+      <li><a href="/contactlink">ContactUs</a></li>
+      <li><a href="/aboutlink">About</a></li>
+        </ul>
+
+        
+        
+    </body>   
+    <fieldset>
+        <div>
+        <form action="/savelink2" method="post">
+            Enter email_id:
+            <input type="text" name="email"required> <br><br>
+
+            Enter Password:
+            <input type="password" name="password"required> <br><br><br><br><br>
+
+            <input type="submit" class="submit">
+        </form>
+        </div>
+    </fieldset>
+    
+</html> 
