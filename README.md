@@ -3,12 +3,12 @@ Goal
 
 - Store and fetch data from  SQL database 
 
--  Manipulate stored data using python and sql
+- Manipulate stored data using python and sql
 
--  Build interactive user interface using flask
+- Build interactive user interface using flask
 
 How it achieved
 
-- use pymysql for connecting to a MySQL DB server from python.
+- Use pymysql Module for connecting MySQL DB server to python.
 
-- use flask module for developing web applications using python.
+- Use flask Library for connecting HTML web pages and python files.
