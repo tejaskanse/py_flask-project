@@ -3,7 +3,7 @@ Goal
 
 - Store and fetch data from  SQL database 
 
--  Manipulate stored data using python
+-  Manipulate stored data using python and sql
 
 -  Build interactive user interface using flask
 
