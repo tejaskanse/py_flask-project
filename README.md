@@ -7,7 +7,7 @@ Goal
 
 -  Build interactive user interface using flask
 
-How it done
+How it achieved
 
 - use pymysql for connecting to a MySQL DB server from python.
 
